@@ -9,11 +9,14 @@
     <h3>Descrição</h3>
     <article [innerHTML]="getData()?.description"></article>
 
-
     <nav>
         @for(item of getData()?.links; track item){
         <a [href]="item.href" target="_blank" class="btn btn-primary">
             {{ item.name }}
+        </a>
+
+        <a [href]="item.repo" target="_blank" class="btn btn-primary">
+            Github
         </a>
         }
     </nav>
