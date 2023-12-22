@@ -27,12 +27,12 @@ export class ProjectsComponent {
 
   public arrayProjetcs = signal<IProjects[]>([
   {
-    src: 'assets/img/projects/vfull.png',
+    src: 'assets/img/projects/lista-de-tarefas.png',
     alt: '',
-    title: 'Vida FullStack',
+    title: 'To-Do List',
     width: '100px',
     height: '51px',
-    description: '<p>Explore o fascinante mundo do desenvolvimento web.',
+    description: '<p>Projeto em Angular de uma lista de tarefas realizadas nos curso da VidaFullStack e Santander Coders 2023.<p>',
     links: [
       {
         name: 'Conheça o blog',
@@ -40,6 +40,21 @@ export class ProjectsComponent {
       }
     ]
   },
+  {
+    src: 'assets/img/projects/crud.jpg',
+    alt: '',
+    title: 'CRUD Angular - Santander Coders 2023',
+    width: '100px',
+    height: '51px',
+    description: '<p>CRUD em Angular para o curso de Front-end do Santander Coders 2023.<p>',
+    links: [
+      {
+        name: 'Conheça o projeto!',
+        href: 'https://project-crud-angular-ada-santander.vercel.app/',
+      }
+    ]
+  },
+
   ])
 
   public openDialog(data: IProjects){
