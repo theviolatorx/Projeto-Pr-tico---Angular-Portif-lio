@@ -42,4 +42,4 @@ ng deploy --base-href https://SEU_PERFIL_GITHUB.github.io/SEU_REPO_GITHUB/browse
 
 ou
 
-ng build --prod --base-href “/your-angular-project”
+ng build --configuration=production --base-href “/your-angular-project”
