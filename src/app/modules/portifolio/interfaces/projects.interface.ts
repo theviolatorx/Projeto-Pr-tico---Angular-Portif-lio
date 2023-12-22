@@ -9,6 +9,7 @@ export interface IProjects{
         {
             name: string;
             href: string;
+            repo: string;
         }
     ]
 }

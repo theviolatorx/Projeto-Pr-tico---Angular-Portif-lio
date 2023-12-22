@@ -35,8 +35,9 @@ export class ProjectsComponent {
     description: '<p>Projeto em Angular de uma lista de tarefas realizadas nos curso da VidaFullStack e Santander Coders 2023.<p>',
     links: [
       {
-        name: 'Conheça o blog',
-        href: 'https://vidafullstack.com.br',
+        name: 'Conheça o projeto!',
+        href: 'https://vercel.com/theviolatorx/angular-projeto-todo-list',
+        repo: 'https://github.com/theviolatorx/Angular-Projeto-todo-List',
       }
     ]
   },
@@ -51,6 +52,7 @@ export class ProjectsComponent {
       {
         name: 'Conheça o projeto!',
         href: 'https://project-crud-angular-ada-santander.vercel.app/',
+        repo: 'https://github.com/theviolatorx/Projeto-Angular-I-ADA--SantanderCoders-2023',
       }
     ]
   },
